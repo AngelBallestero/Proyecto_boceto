@@ -1,0 +1,169 @@
+body {
+    background-color: rgb(183, 182, 182);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Estilos para el encabezado */
+.rectangu1 {
+    text-align: center;
+    width: 1850px;
+    height: 275px;
+}
+
+/* Estilos para el menú de navegación */
+.rectangulo,
+.rec {
+    background-color: #3b5998;
+    padding: 20px;
+    width: 1850px;
+    height: 105px;
+    align-content: center;
+}
+
+.rectangu a {
+    color: rgb(251, 245, 245);
+    text-decoration: none;
+    padding: 22.5px;
+}
+
+.rectangu a:hover {
+    text-decoration: none;
+    padding: 22.5px;
+    transform: scale(1.1);
+    color: aqua;
+}
+
+/* Estilos para los títulos */
+h1 {
+    margin: 100px -1px;
+    margin-bottom: -60px;
+    font-size: 50px;
+}
+
+/* Estilos para el formulario */
+form {
+    margin-top: 20px;
+    width: 1880px;
+    height: 1500px;
+    background-color: #b0b3b9;
+    align-content: center;
+    background-color: rgb(183, 182, 182);
+    background-repeat: no-repeat;
+    background-size: 2000px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1.6);
+    border-radius: 30px;
+}
+
+form input[type="text"],
+form input[type="tel"],
+form input[type="email"],
+.form input[type="text"] {
+    width: 700px;
+    margin: 100px 100px;
+    height: 150px;
+    font-style: oblique;
+    border: 1px solid #cdd0d4;
+    border-radius: 25px;
+    box-sizing: border-box;
+    font-size: 50px;
+}
+
+form input[type="tel"] {
+    margin-top: -1000px;
+}
+
+form input[type="email"] {
+    margin-top: -1000px;
+}
+
+.form input[type="text"] {
+    margin-top: -50px;
+}
+
+form input[type="checkbox"] {
+    width: 50px;
+    height: 200px;
+    margin-top: 1%;
+    float: left;
+    margin-left: -1380px;
+}
+
+form input[type="submit"] {
+    background-color: #3b5998;
+    border-radius: 15px;
+    width: 400px;
+    height: 100px;
+    color: white;
+    font-size: 65px;
+    font-family: Arial white;
+    margin-top: -10px;
+    float: left;
+    margin-left: 720px;
+}
+
+/* Estilos para el pie de página */
+.footer {
+    width: 1850px;
+    height: 400px;
+    padding: 20px;
+    background-color: #3b5998;
+}
+
+/* Estilos para pantallas más pequeñas */
+@media only screen and (max-width: 600px) {
+    /* Ajustar el tamaño del encabezado */
+    .rectangu1 {
+        width: 90%;
+    }
+
+    /* Ajustar el tamaño del menú de navegación */
+    .rectangulo,
+    .rec {
+        width: 90%;
+    }
+
+    /* Ajustar el tamaño de los títulos */
+    h1 {
+        font-size: 30px;
+        margin: 20px;
+    }
+
+    /* Ajustar el tamaño del formulario */
+    form {
+        width: 90%;
+        height: auto;
+    }
+
+    /* Ajustar el tamaño de los campos de entrada y el botón de envío */
+    form input[type="text"],
+    form input[type="tel"],
+    form input[type="email"],
+    .form input[type="text"],
+    form input[type="submit"] {
+        width: 90%;
+        max-width: none;
+        margin: 10px;
+    }
+
+    /* Ajustar el tamaño del checkbox */
+    form input[type="checkbox"] {
+        margin-left: 0;
+    }
+
+    /* Ajustar el tamaño del pie de página */
+    .footer {
+        width: 90%;
+        max-width: none;
+        padding: 10px;
+    }
+}
+
